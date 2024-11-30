@@ -13,7 +13,7 @@ function TodoCard({ todo }: { todo: TodoType }) {
         )}
       </div>
       <h2 className="text-[28px] font-bold line-clamp-2 h-[110px] border-b border-gray py-4">{title}</h2>
-      <p className="mt-2">{date}</p>
+      <p className="mt-2 text-gray">{date}</p>
     </div>
   );
 }

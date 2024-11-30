@@ -12,7 +12,7 @@ function SelectStatus({ status }: { status: Status }) {
     <div className="absolute right-4 top-4">
       <div className="flex justify-end items-center gap-2" onClick={handleIsShow}>
         <span className="text-[14px] cursor-pointer">{statusLabels[status]}</span>
-        <span>
+        <span className="cursor-pointer">
           <ChevronDownIcon width={12} height={8} />
         </span>
       </div>

@@ -1,8 +1,10 @@
 export const todos = [
   {
     id: 1,
-    title: "delectus aut autemutemdelectus aut autemdelectus aut autem",
-    content: "delectus aut autemdelectus aut autemdelectus aut autem",
+    title:
+      "delectus aut autemutemdelectus aut autemdelectus aut autem delectus aut autemdelectus aut autemdelectus aut autem delectus aut autemdelectus aut autemdelectus aut autem",
+    content:
+      "delectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autemdelectus aut autem",
     status: "pending",
     category: "normal",
     date: "2021-09-01",

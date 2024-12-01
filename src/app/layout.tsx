@@ -1,3 +1,4 @@
+import ModalProvider from "@/context/ModalContext";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
@@ -20,7 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={`${montserrat.className} antialiased`}>{children}</body>
+      <body className={`${montserrat.className} antialiased relative`}>
+        <ModalProvider>{children}</ModalProvider>
+      </body>
     </html>
   );
 }

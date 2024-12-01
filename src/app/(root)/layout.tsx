@@ -4,7 +4,7 @@ import { PropsWithChildren } from "react";
 
 function RootLayout({ children }: PropsWithChildren) {
   return (
-    <div>
+    <div className="relative">
       <Header />
       <main className="min-h-screen py-[100px]">{children}</main>
       <Footer />

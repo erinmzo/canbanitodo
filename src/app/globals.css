@@ -14,3 +14,11 @@ body {
     --radius: 0.5rem;
   }
 }
+
+@layer components {
+  .content-box {
+    @apply h-[630px] py-[30px] px-[25px] bg-black rounded-lg mt-5 text-[24px] overflow-y-scroll scroll-smooth [&::-webkit-scrollbar]:w-2
+    [&::-webkit-scrollbar-track]:bg-primary-1
+    [&::-webkit-scrollbar-thumb]:bg-primary-3 [&::-webkit-scrollbar-thumb]:rounded-full;
+  }
+}

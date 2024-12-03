@@ -11,7 +11,10 @@ function EditForm() {
       <BackButton />
       <Title title={title} category={category} date={date} />
       <form className="flex flex-col gap-[30px] justify-center">
-        <textarea className="resize-none content-box" defaultValue={content}></textarea>
+        <textarea
+          className="resize-none content-box focus:ring-0 focus-visible:outline-none"
+          defaultValue={content}
+        ></textarea>
         <SubmitButton />
       </form>
     </>

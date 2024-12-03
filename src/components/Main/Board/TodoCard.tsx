@@ -1,7 +1,7 @@
 import { TodoType } from "@/types/types";
 
 function TodoCard({ todo }: { todo: TodoType }) {
-  const { title, content, status, category, date } = todo;
+  const { title, category, date } = todo;
 
   return (
     <div className="py-4 px-4 border border-white rounded-lg bg-white/10">
